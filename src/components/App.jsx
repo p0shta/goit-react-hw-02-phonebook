@@ -64,14 +64,3 @@ export class App extends Component {
         );
     }
 }
-
-App.propTypes = {
-    filter: PropTypes.string,
-    contacts: PropTypes.arrayOf(
-        PropTypes.shape({
-            id: PropTypes.string,
-            name: PropTypes.string,
-            number: PropTypes.string,
-        })
-    ),
-};
